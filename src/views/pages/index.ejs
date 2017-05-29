@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Best Team in Champions Trophy 2017</title>
+  </head>
+  <body>
+  <p>Vote Now for your team!</p>
+  <form action="/vote" method="post">
+    <div>
+      <label for="sandwiches-button">India</label>
+      <input name="yourVote" id="sandwiches-button" type="radio" value="india" />
+    </div>
+    <div>
+      <label for="tacos-button">Pakistan</label>
+      <input name="yourVote" id="tacos-button" type="radio" value="pakistan" />
+    </div>
+    <div>
+      <label for="sandwiche-button">Srilanka</label>
+      <input name="yourVote" id="sandwiches-button" type="radio" value="srilanka" />
+    </div>
+    <div>
+      <label for="taco-button">South Africa</label>
+      <input name="yourVote" id="tacos-button" type="radio" value="rsa" />
+    </div>
+    <div>
+      <label for="sandwich-button">England</label>
+      <input name="yourVote" id="sandwiches-button" type="radio" value="england" />
+    </div>
+    <div>
+      <label for="tac-button">New Zealand</label>
+      <input name="yourVote" id="tacos-button" type="radio" value="nzw" />
+    </div>
+    <div>
+      <label for="sandwi-button">Australia</label>
+      <input name="yourVote" id="sandwiches-button" type="radio" value="australia" />
+    </div>
+    <div>
+      <label for="ta-button">Bangladesh</label>
+      <input name="yourVote" id="tacos-button" type="radio" value="bangladesh" />
+    </div>
+    <input type="submit" name="submit" id="submit" value="Vote!" />
+  </form>
+  <ul>
+    <li>India: <%= votes.india %></li>
+    <li>Pakistan: <%= votes.pakistan %></li>
+    <li>Srilanka: <%= votes.srilanka %></li>
+    <li>South-Africa: <%= votes.rsa %></li>
+    <li>England: <%= votes.england %></li>
+    <li>New-Zealand: <%= votes.nzw %></li>
+    <li>Australia: <%= votes.australia %></li>
+    <li>Bangladesh: <%= votes.bangladesh %></li>
+  </ul>
+  </body>
+</html>

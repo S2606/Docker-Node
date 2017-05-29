@@ -1,0 +1,17 @@
+{
+  "name": "voting_app_ct2017",
+  "version": "1.0.0",
+  "description": "A Simple Voting App to find out the best team for Champions Trophy 2017",
+  "author": "Shagun Khemka <shagunravi.khemka2015@vit.ac.in>",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "nodemon": "^1.11.0",
+    "express": "^4.13.3",
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "pg": "^6.1.2"
+  }
+}
